@@ -1,0 +1,217 @@
+#wrapper {
+    width: 90%;
+    margin-left: 5%;
+}
+
+body {
+    font-size: 18px;
+    background-color: #f6f4f3;
+    color: #000000;
+}
+
+#titleBar {
+    display: flex;
+    background-color: #ec4e20;
+}
+
+#main {
+    min-width: 50%;
+    padding: 0 20px;
+}
+
+#navigation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navigationList {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.nav {
+    padding: 0 20px;
+}
+
+#aboutMe {
+    display: flex;
+    padding: 20px;
+}
+
+#info{
+    margin-top: 50px;
+    margin-left: 7%;
+}
+
+#myself {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    position: relative;
+    top: 35px;
+}
+
+#dogScreenshot {
+    align-self: center;
+}
+
+#asteroidsScreenshot {
+    align-self: center;
+}
+
+.tagLine {
+    text-align: center;
+}
+
+.portfolioGame {
+    display: flex;
+}
+
+.innerPortfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px
+}
+
+.skills {
+    margin-top: -10px;
+    padding-bottom: 30px;
+}
+
+.gameTitle {
+    margin-bottom: -20px;
+}
+
+.skillTitle {
+    font-size: 20px;
+}
+
+#portfolioHeader {
+    font-size: 24px;
+    margin-bottom: -50px;
+}
+
+a:link
+{
+    color: #016fff;
+}
+a:visited
+{
+    color: #57b8ff;
+}
+a:focus
+{
+    color: #70c1b3;
+} 
+a:hover
+{
+    color: #0090ff;
+} 
+a:active
+{
+    color: #00f0ff;
+} 
+
+#contact {
+    text-align: center;
+}
+
+#linked {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width:100%;
+    background:#cfcfcf;
+    border:1px solid #000000;
+    padding:15px;
+    font-size:14px;
+    color:#000000;
+}
+
+textarea {
+    height:100px;
+}
+
+#submit {
+    margin-top: 10px;
+    width:100px;
+    height:40px;
+    cursor:pointer;
+    border: 2px solid black;
+    background-color:darkslategray;
+    color:#ffffff;
+}
+
+@media screen and (max-width: 1250px) {
+    .portfolioGame {
+        flex-direction: column;
+    }
+
+    #portfolioHeader {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .gameTitle {
+        margin: 0 auto;
+    }
+
+    .skills, .skillTitle, #contact, #resume {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    #wrapper{
+        width: 95%;
+    }
+
+    #main {
+        text-align: center;
+    }
+
+    #titleBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navigation {
+        justify-content: center;
+    }
+
+    #navigationList {
+        flex-direction: column;
+    }
+
+    #aboutMe {
+        flex-direction: column;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    .portfolioGame {
+        flex-direction: column;
+    }
+
+    #portfolioHeader {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .gameTitle {
+        margin: 0 auto;
+    }
+}
